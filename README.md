@@ -40,8 +40,8 @@ Você precisará de um navegador web e um servidor local simples para carregar o
 ### Instalação
 
 1. **Clone o repositório** (se estiver hospedado no Git):
-   $ git clone https://github.com/paulovitormcarvalho/nome-do-seu-repositorio.git
-   $ cd nome-do-seu-repositorio
+   $ git clone https://github.com/paulovitormcarvalho/base-de-conhecimento
+   $ cd base-de-conhecimento
 
 2. **Baixe os arquivos:** Baixe os arquivos index.html, style.css, script.js e data.json para uma pasta local.
 
