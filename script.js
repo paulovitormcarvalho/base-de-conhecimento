@@ -32,9 +32,9 @@ function renderizarCards(dados) {
         article.classList.add("card");
         article.innerHTML = `
             <h2>${dado.nome}</h2>
-            <p>Ano de criação: ${dado.ano}</p>
-            <p> Criado por: ${dado.criador}</p>
-            <p>${dado.descricao || dado.Descricao}</p>
+            <p>Ano de criação: ${dado.data_criacao}</p>
+            <p>Criador: ${dado.criador}</p>
+            <p>Sobre: ${dado.descricao || dado.Descricao}</p>
             <a href="${dado.link}" target="_blank" rel="noopener noreferrer">Saiba mais</a>
         `;
         cardContainer.appendChild(article);
