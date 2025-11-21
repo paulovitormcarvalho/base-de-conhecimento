@@ -1,5 +1,7 @@
 let cardContainer = document.querySelector(".card-container");
 const searchInput = document.querySelector("#searchInput");
+const themeToggle = document.querySelector("#theme-toggle");
+const body = document.body;
 
 let dados = []
 
@@ -32,6 +34,7 @@ function renderizarCards(dados) {
         article.classList.add("card");
         article.innerHTML = `
             <h2>${dado.nome}</h2>
+            <img src="${dado.link_imagem}" alt="${dado.nome}" />
             <p>Ano de criação: ${dado.data_criacao}</p>
             <p>Criador: ${dado.criador}</p>
             <p>Sobre: ${dado.descricao || dado.Descricao}</p>
@@ -41,4 +44,23 @@ function renderizarCards(dados) {
     }
 }
 
+// --- Theme Switcher Logic ---
+function aplicarTema(tema) {
+    if (tema === 'light') {
+        body.classList.add("light-mode");
+        themeToggle.checked = true;
+    } else {
+        body.classList.remove("light-mode");
+        themeToggle.checked = false;
+    }
+}
+
+themeToggle.addEventListener("change", () => {
+    const isLightMode = themeToggle.checked;
+    localStorage.setItem('theme', isLightMode ? 'light' : 'dark');
+    aplicarTema(isLightMode ? 'light' : 'dark');
+});
+
 iniciarBusca();
+// Aplica o tema salvo no localStorage assim que o script é carregado.
+aplicarTema(localStorage.getItem('theme'));

@@ -1,177 +1,242 @@
 [
   {
-    "nome": "Python",
-    "descricao": "Linguagem de alto nível, interpretada, focada em legibilidade de código e amplamente utilizada em ciência de dados e desenvolvimento web.",
-    "data_criacao": "1991",
-    "criador": "Guido van Rossum",
-    "link": "https://www.python.org"
+    "nome": "OpenWeatherMap API",
+    "descricao": "Oferece dados meteorológicos atuais, previsões horárias, diárias e alertas climáticos para qualquer localização geográfica.",
+    "data_criacao": "2012",
+    "criador": "OpenWeather S.R.L.",
+    "link": "https://openweathermap.org/api",
+    "link_imagem": "https://openweathermap.org/themes/openweathermap/assets/img/logo_white_cropped.png"
   },
   {
-    "nome": "Java",
-    "descricao": "Linguagem orientada a objetos, compilada em bytecode, projetada para ser multiplataforma ('Write Once, Run Anywhere').",
-    "data_criacao": "1995",
-    "criador": "James Gosling (Sun Microsystems)",
-    "link": "https://www.java.com"
+    "nome": "GitHub API",
+    "descricao": "Permite interagir com repositórios, usuários, pull requests, issues e webhooks na plataforma GitHub, facilitando a automação e integração de CI/CD.",
+    "data_criacao": "2008",
+    "criador": "GitHub, Inc.",
+    "link": "https://docs.github.com/en/rest",
+    "link_imagem": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
   },
   {
-    "nome": "JavaScript",
-    "descricao": "Linguagem essencial para o desenvolvimento front-end web, que permite interatividade dinâmica e é executada primariamente em navegadores.",
-    "data_criacao": "1995",
-    "criador": "Brendan Eich (Netscape)",
-    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-  },
-  {
-    "nome": "C",
-    "descricao": "Linguagem de programação de propósito geral que influenciou profundamente a maioria das linguagens modernas. Usada para sistemas operacionais e hardware.",
-    "data_criacao": "1972",
-    "criador": "Dennis Ritchie",
-    "link": "https://en.wikipedia.org/wiki/C_(programming_language)"
-  },
-  {
-    "nome": "C++",
-    "descricao": "Extensão do C, adicionando recursos orientados a objetos e manipulação de baixo nível, ideal para jogos, sistemas operacionais e aplicações de alta performance.",
-    "data_criacao": "1983",
-    "criador": "Bjarne Stroustrup",
-    "link": "https://isocpp.org"
-  },
-  {
-    "nome": "C#",
-    "descricao": "Linguagem moderna orientada a objetos desenvolvida pela Microsoft, primariamente usada com o framework .NET para Windows, web e desenvolvimento de jogos (Unity).",
-    "data_criacao": "2000",
-    "criador": "Microsoft",
-    "link": "https://docs.microsoft.com/en-us/dotnet/csharp/"
-  },
-  {
-    "nome": "Go",
-    "descricao": "Linguagem de código aberto do Google focada em simplicidade, segurança e alta concorrência, popular em microsserviços e infraestrutura de rede.",
-    "data_criacao": "2009",
-    "criador": "Robert Griesemer, Rob Pike e Ken Thompson (Google)",
-    "link": "https://golang.org"
-  },
-  {
-    "nome": "Swift",
-    "descricao": "Linguagem robusta e moderna desenvolvida pela Apple para iOS, macOS, watchOS e tvOS, focada em segurança e velocidade.",
-    "data_criacao": "2014",
-    "criador": "Apple",
-    "link": "https://www.swift.org"
-  },
-  {
-    "nome": "Kotlin",
-    "descricao": "Linguagem pragmática que roda na JVM (Java Virtual Machine), oficialmente adotada pelo Google para o desenvolvimento Android.",
-    "data_criacao": "2011",
-    "criador": "JetBrains",
-    "link": "https://kotlinlang.org"
-  },
-  {
-    "nome": "Ruby",
-    "descricao": "Linguagem dinâmica orientada a objetos focada em produtividade e elegância, popularizada pelo framework Ruby on Rails.",
-    "data_criacao": "1995",
-    "criador": "Yukihiro Matsumoto (Matz)",
-    "link": "https://www.ruby-lang.org"
-  },
-  {
-    "nome": "PHP",
-    "descricao": "Linguagem de script do lado do servidor, amplamente utilizada para desenvolvimento web e criação de sistemas de gerenciamento de conteúdo (CMS) como o WordPress.",
-    "data_criacao": "1995",
-    "criador": "Rasmus Lerdorf",
-    "link": "https://www.php.net"
-  },
-  {
-    "nome": "Rust",
-    "descricao": "Linguagem focada em segurança, concorrência e performance, projetada para substituir C/C++ em cenários de sistema.",
+    "nome": "NASA APIs",
+    "descricao": "Coleção de APIs da NASA, sendo a mais famosa a APOD (Astronomy Picture of the Day), fornecendo dados e imagens astronômicas para o público.",
     "data_criacao": "2010",
-    "criador": "Graydon Hoare (Mozilla Research)",
-    "link": "https://www.rust-lang.org"
+    "criador": "NASA (National Aeronautics and Space Administration)",
+    "link": "https://api.nasa.gov/",
+    "link_imagem": "https://cdn-images-1.medium.com/max/800/1*qnG7HZ8mvvD3kUUZvl2OjA.jpeg"
   },
   {
-    "nome": "TypeScript",
-    "descricao": "Superset tipado estaticamente de JavaScript que compila para JS puro, melhorando a escalabilidade de grandes projetos web.",
-    "data_criacao": "2012",
-    "criador": "Microsoft",
-    "link": "https://www.typescriptlang.org"
+    "nome": "Stripe API",
+    "descricao": "Plataforma de processamento de pagamentos que permite a desenvolvedores integrar facilmente pagamentos, assinaturas e gerenciar contas financeiras em aplicações web e móveis.",
+    "data_criacao": "2010",
+    "criador": "Stripe",
+    "link": "https://stripe.com/docs/api",
+    "link_imagem": "https://stripe.com/img/v3/home/social.png"
   },
   {
-    "nome": "Scala",
-    "descricao": "Linguagem que combina recursos de linguagens orientadas a objetos e funcionais, rodando na JVM. Usada em big data e sistemas distribuídos.",
-    "data_criacao": "2003",
-    "criador": "Martin Odersky",
-    "link": "https://www.scala-lang.org"
+    "nome": "Twitter API (v2)",
+    "descricao": "Fornece acesso programático aos dados essenciais do Twitter (agora X), permitindo a recuperação e análise de tweets, usuários, mídias e interações.",
+    "data_criacao": "2006",
+    "criador": "X Corp. (anteriormente Twitter)",
+    "link": "https://developer.twitter.com/en/docs/api-reference/get-methods",
+    "link_imagem": "https://user-images.githubusercontent.com/13072231/199728866-202b9742-d58e-4667-b046-e8096efd2339.png"
   },
   {
-    "nome": "Haskell",
-    "descricao": "Linguagem funcional pura, lazy evaluation e tipagem forte, primariamente usada em pesquisa e desenvolvimento de software robusto.",
-    "data_criacao": "1990",
-    "criador": "Vários Contribuidores (Comitê)",
-    "link": "https://www.haskell.org"
-  },
-  {
-    "nome": "Lisp",
-    "descricao": "Uma das linguagens de programação mais antigas, conhecida por sua sintaxe baseada em parênteses e uso em inteligência artificial.",
-    "data_criacao": "1958",
-    "criador": "John McCarthy",
-    "link": "https://www.lisp.org"
-  },
-  {
-    "nome": "Erlang",
-    "descricao": "Linguagem funcional para construção de sistemas distribuídos, tolerantes a falhas e de alta disponibilidade, desenvolvida pela Ericsson.",
-    "data_criacao": "1986",
-    "criador": "Ericsson",
-    "link": "https://www.erlang.org"
-  },
-  {
-    "nome": "R",
-    "descricao": "Linguagem de programação e ambiente de software livre para computação estatística e gráficos, essencial em análise de dados.",
-    "data_criacao": "1993",
-    "criador": "Ross Ihaka e Robert Gentleman",
-    "link": "https://www.r-project.org"
-  },
-  {
-    "nome": "Lua",
-    "descricao": "Linguagem de script leve e embutível, projetada no Brasil. Muito usada em desenvolvimento de jogos (como motor de script) e sistemas embarcados.",
-    "data_criacao": "1993",
-    "criador": "PUC-Rio (Roberto Ierusalimschy, Luiz Henrique de Figueiredo, Waldemar Celes)",
-    "link": "https://www.lua.org"
-  },
-  {
-    "nome": "Dart",
-    "descricao": "Linguagem otimizada para desenvolvimento de UI, utilizada primariamente com o framework Flutter para criar aplicações nativas multiplataforma.",
-    "data_criacao": "2011",
+    "nome": "Google Maps Platform APIs",
+    "descricao": "Conjunto de APIs para integração de mapas, rotas, geocodificação e locais em aplicações, utilizando a infraestrutura do Google Maps.",
+    "data_criacao": "2005",
     "criador": "Google",
-    "link": "https://dart.dev"
+    "link": "https://developers.google.com/maps/apis-all",
+    "link_imagem": "https://developers.google.com/static/maps/images/google-maps-platform-1200x675.png?hl=pt-br"
   },
   {
-    "nome": "Elixir",
-    "descricao": "Linguagem dinâmica e funcional que roda na máquina virtual Erlang (BEAM), excelente para sistemas distribuídos e em tempo real.",
-    "data_criacao": "2012",
-    "criador": "José Valim",
-    "link": "https://elixir-lang.org"
+    "nome": "ExchangeRate-API",
+    "descricao": "Oferece taxas de câmbio em tempo real e históricas para mais de 160 moedas mundiais, ideal para aplicações financeiras e e-commerce.",
+    "data_criacao": "2018",
+    "criador": "ExchangeRate-API",
+    "link": "https://www.exchangerate-api.com/",
+    "link_imagem": "https://exchangeratesapi.io/assets/images/exchangeratesapi_logo.svg"
   },
   {
-    "nome": "COBOL",
-    "descricao": "Linguagem voltada para processamento de dados comerciais e financeiros. Ainda utilizada em sistemas bancários e governamentais legados.",
-    "data_criacao": "1959",
-    "criador": "CODASYL",
-    "link": "https://en.wikipedia.org/wiki/COBOL"
+    "nome": "News API",
+    "descricao": "Um agregador que busca artigos e manchetes de notícias de milhares de fontes globais, permitindo buscas por tópico, fonte ou data.",
+    "data_criacao": "2016",
+    "criador": "News API",
+    "link": "https://newsapi.org/",
+    "link_imagem": "https://databar.ai/media/external_source_logo/NewsAPI_QjWnptB.png"
   },
   {
-    "nome": "Fortran",
-    "descricao": "A primeira linguagem de alto nível comercialmente disponível, focada em computação científica, matemática e engenharia.",
-    "data_criacao": "1957",
-    "criador": "John Backus (IBM)",
-    "link": "https://fortran-lang.org"
+    "nome": "The Movie Database (TMDB) API",
+    "descricao": "Base de dados colaborativa de filmes, séries de TV e informações de elenco, amplamente utilizada por desenvolvedores para construir aplicativos de entretenimento.",
+    "data_criacao": "2008",
+    "criador": "TMDB",
+    "link": "https://developers.themoviedb.org/3/getting-started/introduction",
+    "link_imagem": "https://pbs.twimg.com/profile_images/1243623122089041920/gVZIvphd_400x400.jpg"
   },
   {
-    "nome": "Prolog",
-    "descricao": "Linguagem de programação lógica, baseada em fatos e regras, usada em inteligência artificial e processamento de linguagem natural.",
-    "data_criacao": "1972",
-    "criador": "Alain Colmerauer e Phillipe Roussel",
-    "link": "https://en.wikipedia.org/wiki/Prolog"
+    "nome": "Spotify Web API",
+    "descricao": "Permite acessar milhões de faixas de música, artistas, álbuns, listas de reprodução e gerenciar a atividade do usuário no Spotify.",
+    "data_criacao": "2010",
+    "criador": "Spotify AB",
+    "link": "https://developer.spotify.com/documentation/web-api/",
+    "link_imagem": "https://assets.apidog.com/blog/2024/03/spotify-web-api-cover.png"
   },
   {
-    "nome": "Scheme",
-    "descricao": "Dialeto minimalista de Lisp, conhecido por seu foco em clareza, funcionalidade e ser frequentemente usado em ensino acadêmico.",
-    "data_criacao": "1975",
-    "criador": "Guy L. Steele Jr. e Gerald Jay Sussman",
-    "link": "https://scheme.org"
+    "nome": "Random User Generator API",
+    "descricao": "Gera dados de usuário aleatórios (nomes, endereços, fotos, etc.) para fins de teste, prototipagem e preenchimento de mockups.",
+    "data_criacao": "2013",
+    "criador": "RandomUser.me",
+    "link": "https://randomuser.me/documentation",
+    "link_imagem": "https://github.com/muratozturk5/Random-User-Jetpack-Compose/raw/master/Screenshots/banner_random_user.png"
+  },
+  {
+    "nome": "Giphy API",
+    "descricao": "API para buscar, carregar e incorporar GIFs animados e stickers em qualquer aplicação ou website.",
+    "data_criacao": "2013",
+    "criador": "Giphy Inc.",
+    "link": "https://developers.giphy.com/",
+    "link_imagem": "https://developers.giphy.com/branch/master/static/api-512d36c09662682717108a38bbb5c57d.gif"
+  },
+  {
+    "nome": "Chuck Norris Jokes API",
+    "descricao": "Uma API RESTful simples que serve piadas aleatórias ou específicas sobre Chuck Norris em formato JSON.",
+    "data_criacao": "2017",
+    "criador": "ICNDB Community",
+    "link": "https://api.chucknorris.io/",
+    "link_imagem": "https://api.chucknorris.io/img/chucknorris_logo_coloured_small.png"
+  },
+  {
+    "nome": "Twilio API",
+    "descricao": "Fornece ferramentas de comunicação para voz, SMS, vídeo e autenticação, permitindo que os desenvolvedores integrem comunicações em tempo real em seus aplicativos.",
+    "data_criacao": "2008",
+    "criador": "Twilio",
+    "link": "https://www.twilio.com/docs/api",
+    "link_imagem": "https://cdn.intuji.com/2022/05/What-Is-Twilio-scaled-1.jpg"
+  },
+  {
+    "nome": "CoinGecko API",
+    "descricao": "Dados abrangentes e em tempo real sobre o mercado de criptomoedas, incluindo preços, volumes de negociação, capitalização de mercado e dados históricos.",
+    "data_criacao": "2014",
+    "criador": "CoinGecko",
+    "link": "https://www.coingecko.com/en/api/documentation",
+    "link_imagem": "https://assets.apidog.com/blog-next/2025/02/image-23.png"
+  },
+  {
+    "nome": "IPWHOIS.io API",
+    "descricao": "Serviço de geolocalização que retorna informações detalhadas sobre um endereço IP (país, cidade, coordenadas, provedor de internet).",
+    "data_criacao": "2019",
+    "criador": "IPWHOIS.io",
+    "link": "https://ipwhois.io/documentation",
+    "link_imagem": "https://ipwhois.io/img/logo.svg"
+  },
+  {
+    "nome": "Marvel Comics API",
+    "descricao": "Acesso autorizado a uma vasta biblioteca de dados sobre personagens, quadrinhos, criadores e eventos do universo Marvel.",
+    "data_criacao": "2014",
+    "criador": "Marvel Entertainment, LLC",
+    "link": "https://developer.marvel.com/",
+    "link_imagem": "https://codingartistweb.com/wp-content/uploads/2023/04/marvel-api-01.png"
+  },
+  {
+    "nome": "Slack API",
+    "descricao": "Permite que os desenvolvedores criem aplicativos e integrações que interagem com espaços de trabalho do Slack, enviando mensagens, criando canais e gerenciando usuários.",
+    "data_criacao": "2013",
+    "criador": "Slack Technologies",
+    "link": "https://api.slack.com/",
+    "link_imagem": "https://a.slack-edge.com/80588/img/slack_api_logo_vogue.png"
+  },
+  {
+    "nome": "Airtable API",
+    "descricao": "API RESTful para interagir com bases de dados da Airtable (Bases), permitindo ler, criar, atualizar e excluir registros programaticamente.",
+    "data_criacao": "2013",
+    "criador": "Airtable",
+    "link": "https://airtable.com/api",
+    "link_imagem": "https://www.quadratichq.com/assets/connections/airtable-api/og-image.png"
+  },
+  {
+    "nome": "Foursquare API",
+    "descricao": "Fornece acesso a dados de localização de pontos de interesse (POIs) e estabelecimentos comerciais em todo o mundo, utilizado para serviços baseados em localização.",
+    "data_criacao": "2009",
+    "criador": "Foursquare Labs",
+    "link": "https://developer.foursquare.com/",
+    "link_imagem": "https://avatars.githubusercontent.com/u/72779?v=4"
+  },
+  {
+    "nome": "WordsAPI",
+    "descricao": "Um dicionário abrangente que fornece definições, sinônimos, antônimos, exemplos e informações sobre a frequência de uso de palavras em inglês.",
+    "data_criacao": "2017",
+    "criador": "RapidAPI",
+    "link": "https://www.wordsapi.com/",
+    "link_imagem": "https://rapidapi.com/hub/_next/image?url=https%3A%2F%2Frapidapi-prod-apis.s3.amazonaws.com%2F54b6aefbe4b0eacb8d34006f_medium&w=1920&q=75"
+  },
+  {
+    "nome": "The Rick and Morty API",
+    "descricao": "API gratuita e aberta que fornece dados sobre os personagens, episódios e localizações da série de TV animada 'Rick and Morty'.",
+    "data_criacao": "2018",
+    "criador": "Axel Fuhrmann",
+    "link": "https://rickandmortyapi.com/documentation/",
+    "link_imagem": "https://repository-images.githubusercontent.com/120371205/b6740400-92d4-11ea-8a13-d5f6e0558e9b"
+  },
+  {
+    "nome": "Postman Echo API",
+    "descricao": "Ferramenta de teste e depuração que espelha dados enviados em requisições (headers, parâmetros, corpo), sendo útil para verificar a estrutura de chamadas API.",
+    "data_criacao": "2014",
+    "criador": "Postman",
+    "link": "https://docs.postman-echo.com/",
+    "link_imagem": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fassets.echoapi.com%2Fupload%2Fuser%2F218821375908265984%2Flog%2F7f7e7c12-2b4a-4383-87f1-0d459e73e5c2.png"
+  },
+  {
+    "nome": "Hacker News API",
+    "descricao": "Permite o acesso a itens de dados brutos do Hacker News, incluindo artigos, comentários, perfis de usuários e enquetes.",
+    "data_criacao": "2011",
+    "criador": "Y Combinator",
+    "link": "https://github.com/HackerNews/API",
+    "link_imagem": "https://res.cloudinary.com/apideck/image/upload/v1583407392/catalog/hackernews/icon128x128.png"
+  },
+  {
+    "nome": "Clearbit API",
+    "descricao": "Plataforma de inteligência de dados de negócios que enriquece informações de e-mail e empresa, fornecendo detalhes de funcionários e tecnologias utilizadas.",
+    "data_criacao": "2014",
+    "criador": "Clearbit",
+    "link": "https://clearbit.com/docs",
+    "link_imagem": "https://backendless.com/wp-content/uploads/2023/06/Clearbit-800x450.png"
+  },
+  {
+    "nome": "Dog API",
+    "descricao": "API simples para buscar imagens aleatórias de cães e listar raças de cães, popular para projetos de demonstração e aprendizado.",
+    "data_criacao": "2016",
+    "criador": "Dog API Community",
+    "link": "https://dog.ceo/dog-api/documentation/",
+    "link_imagem": "https://dog.ceo/img/dog-api-logo.svg"
+  },
+  {
+    "nome": "GraphQL Pokémon API",
+    "descricao": "Uma API GraphQL abrangente que fornece dados detalhados sobre todos os Pokémon, movimentos, habilidades e tipos.",
+    "data_criacao": "2018",
+    "criador": "Comunidade Pokémon TCG",
+    "link": "https://graphql-pokemon2.vercel.app/",
+    "link_imagem": "https://cdn.favware.tech/img/gqlp-and-name.png"
+  },
+  {
+    "nome": "RapidAPI Hub",
+    "descricao": "O maior mercado de APIs do mundo, permitindo que desenvolvedores descubram, testem e se conectem a milhares de APIs públicas e privadas através de uma única conta e chave.",
+    "data_criacao": "2015",
+    "criador": "RapidAPI",
+    "link": "https://rapidapi.com/",
+    "link_imagem": "https://edigitalnetworks.com/wp-content/uploads/2025/08/RapidAPI.jpg"
+  },
+  {
+    "nome": "Zoom API",
+    "descricao": "Permite gerenciar reuniões, webinars, usuários e relatórios da plataforma Zoom, facilitando a integração de funcionalidades de videoconferência em outros sistemas.",
+    "data_criacao": "2011",
+    "criador": "Zoom Video Communications",
+    "link": "https://developers.zoom.us/",
+    "link_imagem": "https://www.fooevents.com/wp-content/uploads/2023/04/zoom-update.png"
+  },
+  {
+    "nome": "Public APIs List (GitHub)",
+    "descricao": "Uma API meta que fornece uma lista categorizada e com curadoria de APIs públicas gratuitas, frequentemente usada como fonte de dados para diretórios de APIs.",
+    "data_criacao": "2016",
+    "criador": "Todd Motto / Comunidade",
+    "link": "https://github.com/public-apis/public-apis",
+    "link_imagem": "https://repository-images.githubusercontent.com/54346799/e5ee272c-dfe1-40e5-b66b-b0a36e815254"
   }
 ]
