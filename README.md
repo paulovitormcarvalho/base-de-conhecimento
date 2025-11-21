@@ -1,82 +1,79 @@
-📚 BASE DE CONHECIMENTO: GUIA DE LINGUAGENS DE PROGRAMAÇÃO
+🌐 BASE DE CONHECIMENTO DE APIS PÚBLICAS: CATÁLOGO INTERATIVO
 ======================================================
 
-Um guia rápido e pesquisável sobre as principais linguagens de programação, desenvolvido durante a 10ª Edição da Imersão Dev com Google Gemini.
+Este é um Catálogo Interativo de APIs Públicas desenvolvido em HTML, CSS e JavaScript puro, focando na busca, filtragem e visualização de endpoints de dados para desenvolvedores.
 
 ------------------------------------------------------
-✨ SOBRE O PROJETO
+✨ FUNCIONALIDADES EM DESTAQUE
 ------------------------------------------------------
 
-Este projeto é uma **Base de Conhecimento interativa** que permite ao usuário pesquisar e visualizar informações essenciais sobre diversas linguagens de programação. Ele foi criado com foco em ser um recurso rápido e acessível para quem deseja entender as características, criadores e o ano de origem das linguagens mais importantes do mundo da tecnologia.
-
-### Funcionalidades
-
-* Pesquisa Dinâmica: Busca instantânea por nome da linguagem ou por termos contidos na descrição, usando JavaScript.
-* Visualização em Cards: Informações organizadas em um layout responsivo em formato de cards.
-* Fonte de Dados Externa: Os dados são carregados de um arquivo **data.json**, facilitando a adição de novas linguagens.
-* Design Moderno: Interface com tema escuro (Dark Mode) utilizando variáveis CSS para fácil manutenção.
+1.  Troca de Tema (Dark/Light Mode):
+    * Usa Variáveis CSS e 'localStorage' para persistir a preferência do tema do usuário.
+2.  Pesquisa Dinâmica:
+    * Filtra a lista de APIs em tempo real por nome ou descrição.
+3.  Visualização em Cards:
+    * Layout em CSS Grid responsivo, apresentando o logo da API (via link_imagem) e informações essenciais.
+4.  Consumo de Dados (Fetch API):
+    * Carregamento assíncrono dos dados do arquivo JSON local.
 
 ------------------------------------------------------
 💻 TECNOLOGIAS UTILIZADAS
 ------------------------------------------------------
 
-O projeto é uma aplicação de front-end puro, utilizando as seguintes tecnologias:
-
-* **HTML5:** Estrutura semântica da página.
-* **CSS3:** Estilização (com foco em Dark Mode e responsividade).
-* **JavaScript (ES6+):** Manipulação do DOM, carregamento de dados via fetch() e lógica de busca (filtro).
-* **JSON:** Armazenamento e fornecimento dos dados estruturados sobre as linguagens.
+* **HTML5:** Estrutura da página, incluindo a barra de busca e o Theme Toggle.
+* **CSS3:** Estilização avançada com **Variáveis CSS** (:root, body.light-mode) para o sistema de tema. Layout em Grid.
+* **JavaScript (ES6+):** Lógica de busca, Fetch API, renderização do DOM e controle do 'theme-switcher' com persistência em 'localStorage'.
+* **JSON:** Fonte de dados estruturada para o catálogo de APIs.
 
 ------------------------------------------------------
-⚙️ COMO RODAR O PROJETO LOCALMENTE
+⚙️ ESTRUTURA DE DADOS (data.json)
 ------------------------------------------------------
 
-Siga os passos abaixo para ter uma cópia local do projeto em execução:
+O arquivo JSON contém campos detalhados, incluindo o link para a imagem:
 
-### Pré-requisitos
-
-Você precisará de um navegador web e um servidor local simples para carregar o arquivo data.json corretamente (o VS Code com a extensão Live Server é a opção mais fácil).
-
-### Instalação
-
-1. **Clone o repositório** (se estiver hospedado no Git):
-   $ git clone https://github.com/paulovitormcarvalho/base-de-conhecimento
-   $ cd base-de-conhecimento
-
-2. **Baixe os arquivos:** Baixe os arquivos index.html, style.css, script.js e data.json para uma pasta local.
-
-3. **Execute o servidor local:**
-   * Se estiver usando o Live Server no VS Code, abra o index.html e clique em "Go Live".
-   * Se estiver usando Python:
-     $ python3 -m http.server
-
-4. **Acesse a aplicação:** Abra seu navegador e navegue para o endereço do servidor local (ex: http://127.0.0.1:5500/).
+Exemplo de campos:
+* "nome": "GitHub API"
+* "descricao": "Permite interagir com repositórios, usuários, pull requests..."
+* "data_criacao": "2008"
+* "link": "https://docs.github.com/en/rest"
+* "link_imagem": "URL do logo da API"
 
 ------------------------------------------------------
-🛠️ ESTRUTURA DO CÓDIGO
+🚀 COMO RODAR O PROJETO LOCALMENTE
 ------------------------------------------------------
 
-O projeto está dividido em quatro arquivos principais:
+Para garantir o funcionamento correto (evitar erros de CORS ao carregar o JSON), é necessário utilizar um servidor web local.
 
-* **index.html:** Estrutura da página.
-* **style.css:** Estilização e tema.
-* **script.js:** Lógica da aplicação e filtro de dados.
-* **data.json:** Dados das linguagens.
+### 1. Pré-requisitos
+* Navegador web moderno.
+* Servidor HTTP local (Ex: Live Server do VS Code ou um servidor Python simples).
 
-### Trecho de Destaque (JavaScript)
+### 2. Passos para Execução
 
-A função principal de filtro:
+1.  **Baixe os Arquivos:** Salve 'index.html', 'style.css', 'script.js' e 'data.json' em uma pasta.
+2.  **Inicie o Servidor:** Use a função "Open with Live Server" no VS Code ou inicie o servidor Python no terminal:
+    $ python3 -m http.server
+3.  **Acesse:** Navegue até o endereço do servidor local (ex: http://127.0.0.1:5500/).
+
+------------------------------------------------------
+💡 DETALHES DA IMPLEMENTAÇÃO (JAVASCRIPT)
+------------------------------------------------------
+
+### Lógica de Filtragem (Pesquisa Dinâmica)
+
+A função de filtro monitora a entrada do usuário e busca correspondências no nome OU na descrição da API:
 
 ```javascript
 function filtrarDados() {
     const termoBuscado = searchInput.value.toLowerCase();
-
     const dadosFiltrados = dados.filter(dado => {
         const nome = dado.nome.toLowerCase();
         const descricao = (dado.descricao || dado.Descricao || "").toLowerCase();
-
         return nome.includes(termoBuscado) || descricao.includes(termoBuscado);
     });
-
     renderizarCards(dadosFiltrados);
 }
+```
+👨‍💻 AUTOR <br>
+Desenvolvido por Paulo Vitor durante a 10ª Edição da Imersão Dev com Google Gemini. <br>
+[Meu Linkedin](https://www.linkedin.com/in/paulovitormcarvalho/)
