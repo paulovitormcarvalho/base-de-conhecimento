@@ -1,49 +1,50 @@
 [
+
 {
     "nome": "JavaScript",
-    "Descrição": "JavaScript é uma linguagem de programação leve, interpretada e orientada a objetos, amplamente utilizada para desenvolvimento web.",
-    "Criador": "Brendan Eich",
-    "Ano de Criação": 1995,
+    "descricao": "JavaScript é uma linguagem de programação leve, interpretada e orientada a objetos, amplamente utilizada para desenvolvimento web.",
+    "criador": "Brendan Eich",
+    "ano": 1995,
     "link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
 },
 
 {
     "nome": "Python",
-    "Descrição": "Python é uma linguagem de programação de alto nível, interpretada e de propósito geral, conhecida por sua legibilidade e simplicidade.",
-    "Criador": "Guido van Rossum",
-    "Ano de Criação": 1991,
+    "descricao": "Python é uma linguagem de programação de alto nível, interpretada e de propósito geral, conhecida por sua legibilidade e simplicidade.",
+    "criador": "Guido van Rossum",
+    "ano": 1991,
     "link": "https://docs.python.org/pt-br/3.14/"
 },
 
 {
     "nome": "Java",
-    "Descrição": "Java é uma linguagem de programação orientada a objetos, de propósito geral, concorrente e baseada em classes, projetada para ter o mínimo de dependências de implementação possível.",
-    "Criador": "James Gosling",
-    "Ano de Criação": 1995,
+    "descricao": "Java é uma linguagem de programação orientada a objetos, de propósito geral, concorrente e baseada em classes, projetada para ter o mínimo de dependências de implementação possível.",
+    "criador": "James Gosling",
+    "ano": 1995,
     "link": "https://docs.oracle.com/en/java/"
 },
 
 {
     "nome": "C#",
-    "Descrição": "C# (pronuncia-se 'C sharp') é uma linguagem de programação moderna, orientada a objetos e fortemente tipada, desenvolvida pela Microsoft como parte da sua iniciativa .NET.",
-    "Criador": "Anders Hejlsberg",
-    "Ano de Criação": 2000,
+    "Descricao": "C# (pronuncia-se 'C sharp') é uma linguagem de programação moderna, orientada a objetos e fortemente tipada, desenvolvida pela Microsoft como parte da sua iniciativa .NET.",
+    "criador": "Anders Hejlsberg",
+    "ano": 2000,
     "link": "https://docs.microsoft.com/pt-br/dotnet/csharp/"
 },
 
 {
     "nome": "Go",
-    "Descrição": "Go (ou Golang) é uma linguagem de programação de código aberto desenvolvida pelo Google. É uma linguagem compilada e estaticamente tipada, conhecida por sua simplicidade e eficiência, especialmente para programação concorrente.",
-    "Criador": "Robert Griesemer, Rob Pike e Ken Thompson",
-    "Ano de Criação": 2009,
+    "descricao": "Go (ou Golang) é uma linguagem de programação de código aberto desenvolvida pelo Google. É uma linguagem compilada e estaticamente tipada, conhecida por sua simplicidade e eficiência, especialmente para programação concorrente.",
+    "criador": "Robert Griesemer, Rob Pike e Ken Thompson",
+    "ano": 2009,
     "link": "https://go.dev/doc/"
 },
 
 {
     "nome": "Rust",
-    "Descrição": "Rust é uma linguagem de programação compilada, de multiparadigma, focada em segurança, especialmente segurança de concorrência. É conhecida por seu desempenho e por garantir a segurança de memória sem a necessidade de um coletor de lixo.",
-    "Criador": "Graydon Hoare",
-    "Ano de Criação": 2010,
+    "descricao": "Rust é uma linguagem de programação compilada, de multiparadigma, focada em segurança, especialmente segurança de concorrência. É conhecida por seu desempenho e por garantir a segurança de memória sem a necessidade de um coletor de lixo.",
+    "criador": "Graydon Hoare",
+    "ano": 2010,
     "link": "https://doc.rust-lang.org/book/"
 }
 
